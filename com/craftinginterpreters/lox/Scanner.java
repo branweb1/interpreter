@@ -51,7 +51,7 @@ class Scanner {
 
   private boolean match(char expected) {
     if (isAtEnd()) return false;
-    if (current == expected) {
+    if (source.charAt(current) == expected) {
       current++;
       return  true;
     }
