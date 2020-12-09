@@ -1,3 +1,3 @@
-javac -sourcepath ./com/craftinginterpreters/lox com/craftinginterpreters/lox/*.java
-java com.craftinginterpreters.lox.Lox
+javac -d bin -sourcepath . com/craftinginterpreters/lox/Lox.java
 
+java -cp bin com.craftinginterpreters.lox.Lox
